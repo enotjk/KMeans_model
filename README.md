@@ -10,7 +10,7 @@
 </body>
 <br>
 
-![image](https://github.com/enotjk/KMeans_model/assets/129334043/3138e0d0-a303-4b5c-a53f-9714559ce338)
+![image](https://github.com/enotjk/KMeans_model/assets/129334043/ea267097-dfbd-4fd2-ad8a-f1af65b5025f)
 <br>
 
 <body>
