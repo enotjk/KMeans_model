@@ -11,4 +11,4 @@ for i, points in clusters.items():
 cluster_df = pd.concat(cluster_dfs, ignore_index=True)
 print(cluster_df)
 
-cluster_df.to_csv('clusters.csv', index=False)
+#cluster_df.to_csv('clusters.csv', index=False)
