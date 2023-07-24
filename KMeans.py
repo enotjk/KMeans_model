@@ -59,14 +59,6 @@ def KMeans(X, k=3, min_distance= 1e-4, num_iter=10):
 
 centroids, clusters = KMeans(X)
 
-"""cluster_dfs = []
-for i, points in clusters.items():
-    cluster_df = pd.DataFrame(points, columns=['X', 'Y'])
-    cluster_df['Cluster'] = f'Cluster_{i}'
-    cluster_dfs.append(cluster_df)
-cluster_df = pd.concat(cluster_dfs, ignore_index=True)
-print(cluster_df)"""
-
 # визуализация обученой модели
 plt.figure(figsize=(7, 7))
 for i in clusters: # задаем цвет каждому кластеру
